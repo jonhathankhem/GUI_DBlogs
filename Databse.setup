@@ -1,0 +1,12 @@
+Insert into  QALIST  (EXAMLIST,TYPE, QUESTION) values (“BANK_PO”,” VERBAL”,”Vincent delivers 37 newspapers to customers in his neighbourhood. It takes Vincent 50 minutes to deliver all the papers. Are you Indian; Are you there;Are you dffsfds; I am here ”);
+CREATE table "LOGGER" (
+    "LOG_TYPE"       VARCHAR2(255),
+    "LOG_SUBTYPE"    VARCHAR2(255),
+    "LOG_DATETIME"   CLOB,
+    "LOG_PAYLOAD"    VARCHAR2(25),
+    "LOG_TXN_REF_NO" VARCHAR2(255)
+)
+
+Insert into LOGGER (LOG_TYPE,LOG_SUBTYPE,LOG_DATETIME,LOG_PAYLOAD, LOG_TXN_REF_NO) VALUES ('financial_transaction','Bill_payment',SYSTIMESTAMP,'<amount>100</amount>',123456);
+Insert into LOGGER (LOG_TYPE,LOG_SUBTYPE,LOG_DATETIME,LOG_PAYLOAD, LOG_TXN_REF_NO) VALUES ('financial_transaction','Bill_payment',SYSTIMESTAMP,'<Details><amount>100</amount><name>khem</name></Details>',123456);
+Insert into LOGGER (LOG_TYPE,LOG_SUBTYPE,LOG_DATETIME,LOG_PAYLOAD, LOG_TXN_REF_NO) VALUES ('financial_transaction','Bill_payment',SYSTIMESTAMP,'<response>Success</response>',123456);
