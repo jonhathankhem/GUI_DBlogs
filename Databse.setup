@@ -1,4 +1,3 @@
-Insert into  QALIST  (EXAMLIST,TYPE, QUESTION) values (“BANK_PO”,” VERBAL”,”Vincent delivers 37 newspapers to customers in his neighbourhood. It takes Vincent 50 minutes to deliver all the papers. Are you Indian; Are you there;Are you dffsfds; I am here ”);
 CREATE table "LOGGER" (
     "LOG_TYPE"       VARCHAR2(255),
     "LOG_SUBTYPE"    VARCHAR2(255),
