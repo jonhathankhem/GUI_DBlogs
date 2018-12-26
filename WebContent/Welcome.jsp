@@ -55,8 +55,8 @@ img {
 
 
 <form action="QueryResult" method="POST">
- <header><img src="<%=request.getContextPath() %>/absa.jpg" style="float:right;width:70px;height:70px;" ><h1 style="text-align: center;" >BEM Log Utility</h1></header>
-<img src="<%=request.getContextPath() %>/absa1.png" style="float:right;width:1424px;height:25px;" >
+ <header><img src="<%=request.getContextPath() %>/imageicon.jpg" style="float:right;width:70px;height:70px;" ><h1 style="text-align: center;" >BEM Log Utility</h1></header>
+<img src="<%=request.getContextPath() %>/imageicon1.png" style="float:right;width:1424px;height:25px;" >
 <p></p>
 <p>&nbsp;</p>
 
